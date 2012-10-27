@@ -19,6 +19,7 @@
     "recipe[chrome]",
     "recipe[sparrow]",
     "recipe[adium]",
+    "recipe[alfred]",
     "recipe[dock]"
   ]
 }
