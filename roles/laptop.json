@@ -15,6 +15,10 @@
   "run_list": [
     "recipe[iterm]",
     "recipe[1password]",
-    "recipe[dropbox]"
+    "recipe[dropbox]",
+    "recipe[chrome]",
+    "recipe[sparrow]",
+    "recipe[adium]",
+    "recipe[dock]"
   ]
 }
