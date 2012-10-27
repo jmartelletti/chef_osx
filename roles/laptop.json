@@ -1,0 +1,20 @@
+{
+  "name": "laptop",
+"default_attributes": {
+    "apache2": {
+      "listen_ports": [
+        "80",
+        "443"
+      ]
+    }
+  },
+  "override_attributes": { },
+  "json_class": "Chef::Role",
+  "description": "This is just a test role, no big deal.",
+  "chef_type": "role",
+  "run_list": [
+    "recipe[iterm]",
+    "recipe[1password]",
+    "recipe[dropbox]"
+  ]
+}
